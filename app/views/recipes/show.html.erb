@@ -35,12 +35,13 @@
       <%= link_to 'Rate Recipe', new_recipe_review_path(@recipe), class: 'btn btn-primary' %>
     </div>
   </div>
-</div>
-</div>
+
 <%= link_to 'Home', '/', class: 'btn btn-secondary' %>
 <%= link_to 'New Recipe', new_recipe_path, class: 'btn btn-secondary' %>
 <%= render 'comments/comments_form' %>
 <%= render 'comments/comments' %>
+</div>
+</div>
 <script>
     $('.star-rating').raty({
         path: '/images',
