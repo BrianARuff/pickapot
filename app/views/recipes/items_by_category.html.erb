@@ -1,0 +1,27 @@
+All <%= @category.name %>
+<%= paginate @recipes %>
+<div class="row" style="margin-right: auto; margin-left: auto; ">
+  <% @recipes.each do |recipe| %>
+    <div class="card" style="width: 20rem; margin: 1rem;">
+      <%= image_tag recipe.image, class: 'card-img-top' %>
+      <div class="card-body">
+        <h4 class="card-title><span style=" text-decoration: underline;>Recipe
+          Name:</span> <%= simple_format(recipe.name.html_safe) %></h4>
+        <p class="card-text"><span style="text-decoration: underline;">Recipe Description:</span>
+          <%= simple_format(recipe.description.html_safe.truncate(50)) %>
+        </p>
+        <h4>Created by: <%= "@#{recipe.user.user_name}" %></h4>
+        <p>Category: <%= recipe.category.name %></p>
+        <small style="word-wrap: break-word;"><%= simple_format(recipe.created_at.strftime('%m/%d/%Y at %I:%M%p')) %></small>
+        <br>
+        <% if user_signed_in? %>
+          <%= link_to 'Comments', recipe_path(recipe), class: 'btn btn-primary btn-block' %><br>
+          <% if current_user.id == recipe.user_id || current_user.admin? %>
+            <%= link_to 'Edit', edit_recipe_path(recipe), class: 'btn btn-warning' %>
+            <%= link_to 'Delete', recipe_path(recipe), method: :delete, data: {confirm: 'Are you sure you want to delete this post?'}, class: 'btn btn-danger' %>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+</div>

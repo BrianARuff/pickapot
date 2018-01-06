@@ -1,0 +1,58 @@
+<% if user_signed_in? %>
+  <%= form_with(model: @recipe, local: true) do |form| %>
+    <% if @recipe.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(@recipe.errors.count, 'error') %> prevented this from being made.</h2>
+        <ul>
+          <% @recipe.errors.full_messages.each do |message| %>
+            <li><%= message %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <div class="form-group">
+      <%= form.label :name %>
+      <%= form.text_field :name, class: 'form-control', placeholder: 'Enter recipe name...' %>
+    </div>
+
+    <div class="form-group">
+      <%= form.label :description %>
+      <%= form.text_area :description, class: 'form-control', placeholder: 'Enter description...' %>
+    </div>
+
+    <div class="form-group">
+      <%= form.label :ingredient_list %>
+      <%= form.text_area :ingredient_list, class: 'form-control', placeholder: 'Enter recipe ingredients...' %>
+    </div>
+
+    <div class="form-group">
+      <%= form.label :instruction_list %>
+      <%= form.text_area :instruction_list, class: 'form-control', placeholder: 'Enter recipe instructions...' %>
+    </div>
+
+    <div class="form-group">
+      <%= form.file_field :image, class: 'btn btn-block btn-success' %>
+    </div>
+    <small> or </small>
+    <div class="form-group">
+      <small>Enter URL to an image</small>
+      <%= form.text_field :remote_image_url, class: 'form-control' %>
+    </div>
+
+    <div class="form-group">
+      <%= form.label :category_id %>
+      <%= form.select(:category_id, @categories.collect{|c| [c.name, c.id]}, {include_blank: 'Select Category'}, required: true, class: 'form-control') %>
+    </div>
+
+    <%= form.hidden_field :user_id, value: current_user.id %>
+
+    <div class="actions">
+      <%= form.submit 'Submit', class: 'btn btn-primary btn-lg btn-block' %>
+    </div>
+  <% end %>
+<% else %>
+  <h1>Please sign in to create new recipe!</h1>
+  <%= link_to 'Sign In', new_user_session_path, class: 'btn btn-primary btn-block' %>
+  <%= link_to 'Register Account', edit_user_session_path %>
+<% end %>

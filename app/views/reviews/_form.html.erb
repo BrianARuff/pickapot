@@ -1,0 +1,30 @@
+<% if !@reviews.to_s.include?(current_user.id.to_s) %>
+<%= form_with(model: [@recipe, @review], local: true) do |form| %>
+  <% if review.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(review.errors.count, "error") %> prohibited this review from being saved:</h2>
+
+      <ul>
+      <% review.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group" style="background: #333333; width: 7rem;">
+    <div id="star-rating"></div>
+  </div><br>
+
+  <div class="actions">
+    <%= form.submit 'Submit', class:'btn btn-primary' %>
+  </div>
+<% end %>
+
+<script>
+  $('#star-rating').raty({
+      path: '/images',
+      scoreName: 'review[rating]'
+  });
+</script>
+<% end %>

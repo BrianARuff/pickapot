@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ingredient_list: MyText
+  instruction_list: MyText
+  user_id: 1
+
+two:
+  ingredient_list: MyText
+  instruction_list: MyText
+  user_id: 1

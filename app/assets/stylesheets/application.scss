@@ -1,0 +1,48 @@
+@import "bootstrap";
+
+body > nav > ul > li > a {
+  padding: 1rem;
+}
+
+body {
+  background: url("https://images.pexels.com/photos/349610/pexels-photo-349610.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Boogaloo', cursive;
+}
+
+#collapsingNavbarLg > ul:nth-child(1) > li > a {
+  font-size: 20px !important;
+  font-family: 'Shrikhand', cursive !important;
+  color: #343A40 !important;
+}
+
+body > div > div > div > div > div > div > nav {
+  padding: 1rem !important;
+}
+
+body > div > div > div > div > div > div > nav > span.next > a {
+  padding: 25px;
+}
+
+body > div > div > div > div > div > div > nav > span.page.current {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+body > div > div > div > div > div > div > nav > span.first > a {
+  padding: 1rem;
+}
+body > div > div > div > div > div > div > nav > span > a {
+  padding: 1rem;
+}
+
+body > div > div > div > div > div > div > div > div > p {
+  word-wrap: break-word !important;
+}
+#collapsingNavbarLg > ul > li.dropdown.nav-link.show > ul {
+  background: #333 !important;
+  text-align: center !important;
+}
+
+#collapsingNavbarLg > form, #collapsingNavbarLg > form > input.form-control.mr-sm-3, #collapsingNavbarLg > form > input.form-control.mr-sm-3 {
+  display: flex;
+}

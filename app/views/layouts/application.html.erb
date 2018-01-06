@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sharerecipes</title>
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+</head>
+
+<body>
+<%= render 'layouts/nav' %>
+<!--<div class="container" style='background: url("https://images.pexels.com/photos/33486/soup-vegetables-pot-cooking.jpg?w=1260&h=750&auto=compress&cs=tinysrgb") no-repeat center center fixed; background-size: cover;'>-->
+<div class="container">
+  <div class="container">
+    <div class="container">
+      <div class="container">
+        <div class="container">
+          <div class="container">
+            <%= yield %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+    $(document).on('turbolinks:load', function(){
+        $('nav').hide().slideDown(750);
+        $('.card').hide().show(750)
+    });
+</script>
+</body>
+</html>

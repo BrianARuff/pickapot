@@ -1,0 +1,12 @@
+<% if user_signed_in? %>
+<%= render 'form' %>
+<%= link_to 'Home', recipes_path, class: 'btn btn-default' %>
+<% else %>
+  <%= link_to 'Sign In', new_user_session_path, class: 'btn btn-primary btn-block'%>
+  <%= link_to 'Register Account', edit_user_registration_path, class: 'btn btn-secondary btn-block' %>
+<%end%>
+<script>
+  $(document).on('turbolinks:load', function(){
+      $('body > div > div > div > div > div > div > form > div').hide().show(750)
+  })
+</script>

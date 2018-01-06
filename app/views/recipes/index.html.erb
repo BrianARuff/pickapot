@@ -1,0 +1,23 @@
+<div id="d" class="row" style="margin-right: auto; margin-left: auto; ">
+  <% @recipes.each do |recipe| %>
+    <div id="k" class="card" style="width: 15rem;">
+      <%= link_to (image_tag (recipe.image.url), {class: 'card-img-top img-responsive'}), recipe_path(recipe) %>
+      <div class="card-body">
+        <h4 class="card-title><span style=" text-decoration: underline;><%= simple_format(recipe.name.html_safe) %></h4>
+        <h4><%= "@#{recipe.user.user_name}" %></h4>
+        <%= @rating %>
+        <small style="word-wrap: break-word;"><%= simple_format(recipe.created_at.strftime('%m/%d/%Y at %I:%M%p')) %></small>
+        <br>
+        <% if user_signed_in? %>
+          <%= link_to 'See More', recipe_path(recipe), class: 'btn btn-primary btn-block' %><br>
+          <% if current_user.id == recipe.user_id || current_user.admin? %>
+            <%= link_to 'Edit', edit_recipe_path(recipe), class: 'btn btn-warning' %>
+            <%= link_to 'Delete', recipe_path(recipe), method: :delete, data: {confirm: 'Are you sure you want to delete this post?'}, class: 'btn btn-danger' %>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+</div>
+
+<%= paginate @recipes %>
