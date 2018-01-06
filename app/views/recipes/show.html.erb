@@ -1,4 +1,5 @@
-<div class="col-md-12 col-md-offset-1">
+<div clas="row">
+<div class="col-md-6 col-md-offset-3">
 
   <div class="card" style="width: 15rem; display: table; margin: 0 auto;">
     <%= image_tag @recipe.image, class: 'card-img-top' %>
@@ -31,11 +32,10 @@
         <%= link_to 'Edit', edit_recipe_path(@recipe), class: 'btn btn-warning' %>
         <%= link_to 'Delete', recipe_path(@recipe), method: :delete, data: {confirm: 'Are you sure you want to delete this post?'}, class: 'btn btn-danger' %>
       <% end %>
-      <% if !@reviews.to_s.include?(current_user.id.to_s) %>
-        <%= link_to 'Rate Recipe', new_recipe_review_path(@recipe), class: 'btn btn-primary' %>
-      <% end %>
+      <%= link_to 'Rate Recipe', new_recipe_review_path(@recipe), class: 'btn btn-primary' %>
     </div>
   </div>
+</div>
 </div>
 <%= link_to 'Home', '/', class: 'btn btn-secondary' %>
 <%= link_to 'New Recipe', new_recipe_path, class: 'btn btn-secondary' %>

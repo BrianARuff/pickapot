@@ -1,4 +1,3 @@
-<% if !@reviews.to_s.include?(current_user.id.to_s) %>
 <%= form_with(model: [@recipe, @review], local: true) do |form| %>
   <% if review.errors.any? %>
     <div id="error_explanation">
@@ -19,7 +18,6 @@
   <div class="actions">
     <%= form.submit 'Submit', class:'btn btn-primary' %>
   </div>
-<% end %>
 
 <script>
   $('#star-rating').raty({
