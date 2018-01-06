@@ -6,5 +6,5 @@ development:
   encoding: unicode
 
 production:
-  url: <%= ENV["DATABASE_URL"]
+  url: <%= ENV["DATABASE_URL"] %>
   pool: <%= ENV["DB_POOL"] || ENV["MAX_THREADS"] || 5 %>
