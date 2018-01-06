@@ -1,7 +1,7 @@
 <div clas="row">
 <div class="col-md-6 col-md-offset-3">
 
-  <div class="card" style="width: 15rem; display: table; margin: 0 auto;">
+  <div class="card" style="width: 20rem; display: table; margin: 0 auto;">
     <%= image_tag @recipe.image, class: 'card-img-top' %>
     <% unless @avg_review.blank? %>
       <div class="star-rating" , style="display: table; margin-right: auto; margin-left: auto;" data-score="<%= @avg_review %>"></div>
