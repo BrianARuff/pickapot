@@ -350,7 +350,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/comments/_comments.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="150" lean-forward="false" selection-start-line="5" selection-start-column="150" selection-end-line="5" selection-end-column="150" />
+              <caret line="5" column="162" lean-forward="false" selection-start-line="5" selection-start-column="162" selection-end-line="5" selection-end-column="162" />
               <folding />
             </state>
           </provider>
@@ -767,12 +767,12 @@
       <workItem from="1515089195817" duration="203000" />
       <workItem from="1515097631364" duration="1014000" />
       <workItem from="1515126194789" duration="124000" />
-      <workItem from="1515220483989" duration="7123000" />
+      <workItem from="1515220483989" duration="7264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180851000" />
+    <option name="totallyTimeSpent" value="180992000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1092,7 +1092,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/comments/_comments.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="150" lean-forward="false" selection-start-line="5" selection-start-column="150" selection-end-line="5" selection-end-column="150" />
+          <caret line="5" column="162" lean-forward="false" selection-start-line="5" selection-start-column="162" selection-end-line="5" selection-end-column="162" />
           <folding />
         </state>
       </provider>
