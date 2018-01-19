@@ -9,7 +9,7 @@ class RecipesController < ApplicationController
                  Recipe.where('name ILIKE ?', "%#{params[:term]}").page
                  (params[:page]).per(4)
                else
-                 Recipe.all.page(params[:page]).per(8)
+                 Recipe.all.page(params[:page]).per(4)
                end
   end
 
@@ -18,7 +18,7 @@ class RecipesController < ApplicationController
     @reviews = Review.where(recipe_id: @recipe.user_id).order('created_at DESC')
 
     if @reviews.blank?
-      @avg_review = 0.00001
+      @avg_review = 0.00
     else
       @avg_review = @reviews.average(:rating).round(2, :default)
     end
