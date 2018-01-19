@@ -7,7 +7,7 @@ class RecipesController < ApplicationController
   def index
     @recipes = if params[:term]
                  Recipe.where('name ILIKE ?', "%#{params[:term]}").page
-                 (params[:page]).per(4)
+                 (params[:page])
                else
                  Recipe.all.page(params[:page]).per(4)
                end
