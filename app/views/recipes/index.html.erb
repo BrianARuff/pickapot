@@ -1,4 +1,4 @@
-<div class="row" style="margin-right: 50%;">
+<div class="row" style="margin: 0 auto;">
   <% @recipes.each do |recipe| %>
     <div class="card" style="width: 15rem;">
       <%= link_to (image_tag (recipe.image.url), {class: 'card-img-top img-responsive'}), recipe_path(recipe) %>
