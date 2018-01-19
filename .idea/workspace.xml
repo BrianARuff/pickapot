@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f51c3e2b-e671-4865-8c79-f58665f59c9a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/recipes/index.html.erb" afterPath="$PROJECT_DIR$/app/views/recipes/index.html.erb" />
-    </list>
+    <list default="true" id="f51c3e2b-e671-4865-8c79-f58665f59c9a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -485,12 +482,12 @@
       <workItem from="1515306698859" duration="1345000" />
       <workItem from="1515313128214" duration="48000" />
       <workItem from="1515608177866" duration="342000" />
-      <workItem from="1516391061419" duration="7044000" />
+      <workItem from="1516391061419" duration="7099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191800000" />
+    <option name="totallyTimeSpent" value="191855000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
