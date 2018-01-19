@@ -1,6 +1,7 @@
 development:
   host: 127.0.0.1
   username: brian
+  password: Complex01
   adapter: postgresql
   database: myapp_development
   encoding: unicode

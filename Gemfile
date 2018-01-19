@@ -42,8 +42,7 @@ gem 'hirb'
 gem 'jquery-rails'
 gem 'rails-simple-search'
 gem 'kaminari'
-gem 'pg'
-gem 'pg_search'
+gem 'pg', '~> 0.20'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
