@@ -1,4 +1,4 @@
-    <div class="card" style="width: 20rem; display: table; margin: 0 auto;">
+    <div class="card">
       <%= image_tag @recipe.image, class: 'card-img-top' %>
       <% unless @avg_review.blank? %>
         <div class="star-rating" style="display: table; margin-right: auto; margin-left: auto;" data-score="<%= @avg_review %>"></div>
@@ -15,7 +15,7 @@
           Name: <%= simple_format(@recipe.name.html_safe) %></h2>
         <p class="card-text">
           <span style="text-decoration: underline;">Recipe Description:</span><br> <%= simple_format(@recipe.description.html_safe) %>
-        </p>.
+        </p>
         <p class="card-text">
           <span style="text-decoration: underline;">Recipe Ingredients:</span><br> <%= simple_format(@recipe.ingredient_list.html_safe) %>
         </p>
@@ -23,7 +23,7 @@
           <span style="text-decoration: underline;">Recipe Instructions:</span><br> <%= simple_format(@recipe.instruction_list.html_safe) %>
         </p>
         <p>Category: <%= @recipe.category.name %></p>
-        <small><%= @recipe.created_at.strftime('%m/%d/%Y at %I:%M%p') %></small>
+        <small><%= @recipe.created_at.strftime('%B %d, %Y at %I:%M%p') %></small>
         <br>
         <% if !current_user.id == @recipe.user_id %>
           <%= link_to 'Edit', edit_recipe_path(@recipe), class: 'btn btn-warning' %>
@@ -35,8 +35,8 @@
           <%= "<h2>Thanks for voting :)</h2>".html_safe %>
         <% end %>
 
-    <%= link_to 'Home', '/', class: 'btn btn-secondary' %>
-    <%= link_to 'New Recipe', new_recipe_path, class: 'btn btn-secondary' %>
+    <%= link_to 'Home', '/', class: 'btn btn-secondary btn-block' %>
+    <%= link_to 'New Recipe', new_recipe_path, class: 'btn btn-secondary btn-block' %>
     <%= render 'comments/comments_form' %>
     <%= render 'comments/comments' %>
   </div>

@@ -1,6 +1,6 @@
 
   <% @recipes.each do |recipe| %>
-    <div class="card" style="width: 2s0rem;">
+    <div class="card">
       <%= link_to (image_tag (recipe.image.url), {class: 'card-img-top img-responsive'}), recipe_path(recipe) %>
       <div class="card-body">
         <h4 class="card-title><span style=" text-decoration: underline;><%= simple_format(recipe.name.html_safe) %></h4>
