@@ -1,13 +1,18 @@
 @import "bootstrap";
 
 body > nav > ul > li > a {
-  padding: 1rem;
+  margin-right: 1rem;
 }
 
 body {
   background: url("https://images.pexels.com/photos/349610/pexels-photo-349610.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb") no-repeat center center fixed;
   background-size: cover;
   font-family: 'Boogaloo', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
 }
 
 #collapsingNavbarLg > ul:nth-child(1) > li > a {
