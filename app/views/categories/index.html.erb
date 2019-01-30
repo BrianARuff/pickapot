@@ -11,8 +11,10 @@
     <tr>
       <td><%= category.name %></td>
       <td><%= "@#{category.user.user_name}" %></td>
+      <% if current_user.id == category.user_id || current_user.role == "admin" %>
       <td><%= link_to 'Edit', edit_category_path(category), class: 'btn btn-warning' %></td>
       <td><%= link_to 'Delete', category_path(category), method: :delete, data: {confirm: 'Are you sure you want to delete this category?'}, class: 'btn btn-danger' %></td>
+      <% end %>
     </tr>
     </tbody>
     <% end %>
