@@ -155,3 +155,13 @@ body > div > div > div.card-body > div.container > div > form {
     }
   }
 }
+
+body > div > form {
+  width: 500px;
+}
+
+@media (max-width: 500px) {
+  body > div > form {
+    width: 100%;
+  }
+}
