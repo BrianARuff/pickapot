@@ -156,6 +156,7 @@ body > div > div > div.card-body > div.container > div > form {
   }
 }
 
+// new recipe form selector
 body > div > form {
   width: 500px;
 }
@@ -164,4 +165,10 @@ body > div > form {
   body > div > form {
     width: 100%;
   }
+}
+
+// new recipe file uploader styling
+body > div > form > div:nth-child(7) > input {
+  background: transparent;
+  border: none;
 }

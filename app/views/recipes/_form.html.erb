@@ -18,23 +18,23 @@
 
     <div class="form-group">
       <%= form.label :description %>
-      <%= form.text_area :description, class: 'form-control', placeholder: 'Enter description...' %>
+      <%= form.text_area :description, rows: 10, columns: 100, class: 'form-control', placeholder: 'Enter description...' %>
     </div>
 
     <div class="form-group">
       <%= form.label :ingredient_list %>
-      <%= form.text_area :ingredient_list, class: 'form-control', placeholder: 'Enter recipe ingredients...' %>
+      <%= form.text_area :ingredient_list, rows: 10, columns: 100, class: 'form-control', placeholder: 'Enter recipe ingredients...' %>
     </div>
 
     <div class="form-group">
       <%= form.label :instruction_list %>
-      <%= form.text_area :instruction_list, class: 'form-control', placeholder: 'Enter recipe instructions...' %>
+      <%= form.text_area :instruction_list, rows: 10, columns: 100, class: 'form-control', placeholder: 'Enter recipe instructions...' %>
     </div>
 
     <div class="form-group">
-      <%= form.file_field :image, class: 'btn btn-block btn-success' %>
+      <%= form.file_field :image, class: 'btn btn-block btn-success', style: "color: #000; padding: 0; margin: 0;" %>
     </div>
-    <small> or </small>
+    <small> <em>OR</em> </small>
     <div class="form-group">
       <small>Enter URL to an image</small>
       <%= form.text_field :remote_image_url, class: 'form-control' %>
