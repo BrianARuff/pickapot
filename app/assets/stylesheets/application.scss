@@ -127,6 +127,13 @@ body > div > div > div > div > div > div > div > div > p {
   margin: 20px 0;
 }
 
-form {
-  width: 100% !important;
+.user_info {
+  width: 500px;
+  max-width: 100%;
+}
+
+@media (max-width: 500px) {
+  .user_info {
+    width: 100%;
+  }
 }
