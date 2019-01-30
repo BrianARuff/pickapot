@@ -143,3 +143,15 @@ body > div > div > div > div > div > div > div > div > p {
 body > div > div > div.card-body > div.container > div > form {
   width: 100%;
 }
+
+#collapsingNavbarLg > ul > li.dropdown.nav-link.show > ul {
+  background: #fff !important;
+
+  li {
+    text-decoration: underline;
+    
+    a {
+      color: #333;
+    }
+  }
+}
