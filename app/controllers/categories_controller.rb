@@ -1,7 +1,6 @@
 class CategoriesController < ApplicationController
 
   before_action :set_category, only: [:edit, :show, :update, :destroy]
-  before_action :admin_only
 
   def admin_only
     if current_user.admin?
@@ -17,9 +16,7 @@ class CategoriesController < ApplicationController
   end
 
   def new
-    if current_user.admin?
       @category = Category.new
-    end
   end
 
   def edit

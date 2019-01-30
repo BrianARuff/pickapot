@@ -1,4 +1,3 @@
-<% if current_user.admin? %>
   <%= form_with(model: @category, local: true) do |form| %>
   <% if @category.errors.any? %>
     <div id="error_explanation">
@@ -22,5 +21,4 @@
     <div class="form-group">
       <%= form.submit 'Create Category', class: 'btn btn-primary' %>
     </div>
-<% end %>
 <% end %>
