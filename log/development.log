@@ -10412,3 +10412,1604 @@ Processing by RecipesController#index as HTML
 Completed 200 OK in 81ms (Views: 77.5ms | ActiveRecord: 1.6ms)
 
 
+Started GET "/" for ::1 at 2019-01-31 18:27:37 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (41.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (113.0ms)
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (13.4ms)
+Completed 200 OK in 511ms (Views: 445.5ms | ActiveRecord: 50.1ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:28:01 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (26.8ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (4.3ms)
+Completed 200 OK in 100ms (Views: 96.1ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:28:11 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (28.2ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.0ms)
+Completed 200 OK in 80ms (Views: 76.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:28:48 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (21.6ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (5.3ms)
+Completed 200 OK in 1877ms (Views: 1873.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:29:05 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (36.0ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (5.8ms)
+Completed 200 OK in 1461ms (Views: 1457.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:31:18 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (22.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.6ms)
+Completed 200 OK in 76ms (Views: 72.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:31:35 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (21.3ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.4ms)
+Completed 200 OK in 1596ms (Views: 1592.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:31:56 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (24.1ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (4.3ms)
+Completed 200 OK in 1424ms (Views: 1420.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:32:22 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (24.1ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (4.7ms)
+Completed 200 OK in 68ms (Views: 64.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:32:47 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (29.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (4.1ms)
+Completed 200 OK in 103ms (Views: 99.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/burger.png" for ::1 at 2019-01-31 18:32:47 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/burger.png"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-01-31 18:32:52 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (20.8ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 63ms (Views: 59.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/burger.png" for ::1 at 2019-01-31 18:32:52 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/burger.png"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-01-31 18:33:09 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (22.4ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.3ms)
+Completed 200 OK in 63ms (Views: 60.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/burger" for ::1 at 2019-01-31 18:33:09 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/burger"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-01-31 18:33:23 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (20.7ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.2ms)
+Completed 401 Unauthorized in 62ms (ActiveRecord: 1.2ms)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "burger.png" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:24:in `_app_views_layouts_application_html_erb__1458995388943730656_70325589694780'
+
+Started POST "/__better_errors/606da8a7974d9c26/variables" for ::1 at 2019-01-31 18:33:23 -0500
+Started GET "/" for ::1 at 2019-01-31 18:33:26 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (21.1ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.0ms)
+Completed 401 Unauthorized in 58ms (ActiveRecord: 1.3ms)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "burger" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:24:in `_app_views_layouts_application_html_erb__1458995388943730656_70325602094260'
+
+Started POST "/__better_errors/c412334afc6a2433/variables" for ::1 at 2019-01-31 18:33:26 -0500
+Started GET "/" for ::1 at 2019-01-31 18:33:56 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (19.5ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.9ms)
+Completed 401 Unauthorized in 57ms (ActiveRecord: 1.1ms)
+
+
+
+NoMethodError - undefined method `start_with?' for nil:NilClass:
+  app/views/layouts/application.html.erb:24:in `_app_views_layouts_application_html_erb__1458995388943730656_70325589625620'
+
+Started POST "/__better_errors/b96c606beda13508/variables" for ::1 at 2019-01-31 18:33:56 -0500
+Started GET "/" for ::1 at 2019-01-31 18:33:57 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (20.5ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (1.8ms)
+Completed 401 Unauthorized in 60ms (ActiveRecord: 1.1ms)
+
+
+
+NoMethodError - undefined method `start_with?' for nil:NilClass:
+  app/views/layouts/application.html.erb:24:in `_app_views_layouts_application_html_erb__1458995388943730656_70325514996960'
+
+Started POST "/__better_errors/5ba843edf83e5cbc/variables" for ::1 at 2019-01-31 18:33:57 -0500
+Started GET "/" for ::1 at 2019-01-31 18:34:17 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (20.8ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.1ms)
+Completed 200 OK in 58ms (Views: 54.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/public/images/burger.png" for ::1 at 2019-01-31 18:34:18 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/public/images/burger.png"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-01-31 18:35:17 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (23.1ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (1.8ms)
+Completed 200 OK in 67ms (Views: 63.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/public/images/burger.png" for ::1 at 2019-01-31 18:35:17 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/public/images/burger.png"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-01-31 18:35:22 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (21.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.8ms)
+Completed 200 OK in 60ms (Views: 56.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:35:44 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (20.5ms)
+Completed 401 Unauthorized in 29ms (ActiveRecord: 1.0ms)
+
+
+
+SyntaxError - syntax error, unexpected ',', expecting ')'
+...mage_tag("/images/burger.png"), :style => "width: 50px; heig...
+...                              ^:
+  app/views/layouts/application.html.erb:24:in `'
+
+Started POST "/__better_errors/12ad6624c0288155/variables" for ::1 at 2019-01-31 18:35:44 -0500
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY "categories"."name" ASC LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2019-01-31 18:35:59 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (20.9ms)
+Completed 401 Unauthorized in 29ms (ActiveRecord: 0.9ms)
+
+
+
+SyntaxError - syntax error, unexpected ',', expecting ')'
+...mage_tag("/images/burger.png"), style: "width: 50px; height:...
+...                              ^:
+  app/views/layouts/application.html.erb:24:in `'
+
+Started POST "/__better_errors/59791ceb30aa8cea/variables" for ::1 at 2019-01-31 18:36:00 -0500
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY "categories"."name" ASC LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2019-01-31 18:36:01 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (20.5ms)
+Completed 401 Unauthorized in 29ms (ActiveRecord: 0.8ms)
+
+
+
+SyntaxError - syntax error, unexpected ',', expecting ')'
+...mage_tag("/images/burger.png"), style: "width: 50px; height:...
+...                              ^:
+  app/views/layouts/application.html.erb:24:in `'
+
+Started POST "/__better_errors/c6d1fe71a6f39cb5/variables" for ::1 at 2019-01-31 18:36:01 -0500
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY "categories"."name" ASC LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2019-01-31 18:36:08 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (21.9ms)
+Completed 401 Unauthorized in 30ms (ActiveRecord: 1.0ms)
+
+
+
+SyntaxError - syntax error, unexpected tLABEL, expecting ')'
+...ag("/images/burger.png") style: "width: 50px; height: 50px;"...
+...                         ^~~~~~:
+  app/views/layouts/application.html.erb:24:in `'
+
+Started POST "/__better_errors/bb04f0b39167c4b5/variables" for ::1 at 2019-01-31 18:36:08 -0500
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY "categories"."name" ASC LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2019-01-31 18:36:09 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (22.0ms)
+Completed 401 Unauthorized in 31ms (ActiveRecord: 0.9ms)
+
+
+
+SyntaxError - syntax error, unexpected tLABEL, expecting ')'
+...ag("/images/burger.png") style: "width: 50px; height: 50px;"...
+...                         ^~~~~~:
+  app/views/layouts/application.html.erb:24:in `'
+
+Started POST "/__better_errors/c203601657dc31a6/variables" for ::1 at 2019-01-31 18:36:09 -0500
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY "categories"."name" ASC LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2019-01-31 18:36:11 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (22.2ms)
+Completed 401 Unauthorized in 30ms (ActiveRecord: 0.8ms)
+
+
+
+SyntaxError - syntax error, unexpected ',', expecting ')'
+...mage_tag("/images/burger.png"), style: "width: 50px; height:...
+...                              ^:
+  app/views/layouts/application.html.erb:24:in `'
+
+Started POST "/__better_errors/58594a343be460a8/variables" for ::1 at 2019-01-31 18:36:12 -0500
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY "categories"."name" ASC LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2019-01-31 18:36:50 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (20.8ms)
+Completed 401 Unauthorized in 29ms (ActiveRecord: 1.0ms)
+
+
+
+SyntaxError - syntax error, unexpected ',', expecting ')'
+...mage_tag("/images/burger.png"), :style => "width: 50px; heig...
+...                              ^:
+  app/views/layouts/application.html.erb:24:in `'
+
+Started POST "/__better_errors/5a49213c0d4d9721/variables" for ::1 at 2019-01-31 18:36:50 -0500
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY "categories"."name" ASC LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2019-01-31 18:36:51 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (20.9ms)
+Completed 401 Unauthorized in 29ms (ActiveRecord: 1.0ms)
+
+
+
+SyntaxError - syntax error, unexpected ',', expecting ')'
+...mage_tag("/images/burger.png"), :style => "width: 50px; heig...
+...                              ^:
+  app/views/layouts/application.html.erb:24:in `'
+
+Started POST "/__better_errors/c97e90f8a8884b66/variables" for ::1 at 2019-01-31 18:36:51 -0500
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY "categories"."name" ASC LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2019-01-31 18:36:57 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (19.7ms)
+Completed 401 Unauthorized in 28ms (ActiveRecord: 0.9ms)
+
+
+
+SyntaxError - syntax error, unexpected ',', expecting ')'
+...mage_tag("/images/burger.png"), :style => "width: 50px; heig...
+...                              ^
+/Users/brianruff/Desktop/Websites/pickapot/app/views/layouts/application.html.erb:24: syntax error, unexpected ')', expecting keyword_end
+..."width: 50px; height: 50px;") );@output_buffer.safe_append='...
+...                              ^:
+  app/views/layouts/application.html.erb:24:in `'
+
+Started POST "/__better_errors/7da8b9a39bff0df5/variables" for ::1 at 2019-01-31 18:36:57 -0500
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY "categories"."name" ASC LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2019-01-31 18:37:00 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (19.9ms)
+Completed 401 Unauthorized in 28ms (ActiveRecord: 0.9ms)
+
+
+
+SyntaxError - syntax error, unexpected ',', expecting ')'
+...mage_tag("/images/burger.png"), :style => "width: 50px; heig...
+...                              ^:
+  app/views/layouts/application.html.erb:24:in `'
+
+Started POST "/__better_errors/959e24b79a55c559/variables" for ::1 at 2019-01-31 18:37:00 -0500
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY "categories"."name" ASC LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2019-01-31 18:37:15 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (19.8ms)
+Completed 401 Unauthorized in 28ms (ActiveRecord: 0.9ms)
+
+
+
+SyntaxError - syntax error, unexpected ':', expecting ')'
+...age_tag("/images/burger.png") :style => "width: 50px; height...
+...                              ^:
+  app/views/layouts/application.html.erb:24:in `'
+
+Started POST "/__better_errors/008aa5032a04aa60/variables" for ::1 at 2019-01-31 18:37:15 -0500
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY "categories"."name" ASC LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2019-01-31 18:37:27 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (20.3ms)
+Completed 401 Unauthorized in 28ms (ActiveRecord: 0.8ms)
+
+
+
+SyntaxError - syntax error, unexpected ',', expecting ')'
+...mage_tag("/images/burger.png"),{ :style => "width: 50px; hei...
+...                              ^
+/Users/brianruff/Desktop/Websites/pickapot/app/views/layouts/application.html.erb:24: syntax error, unexpected ')', expecting '}'
+... "width: 50px; height: 50px;" );@output_buffer.safe_append='...
+...                              ^
+/Users/brianruff/Desktop/Websites/pickapot/app/views/layouts/application.html.erb:31: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/brianruff/Desktop/Websites/pickapot/app/views/layouts/application.html.erb:33: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~:
+  app/views/layouts/application.html.erb:24:in `'
+
+Started POST "/__better_errors/b723792a06d8be31/variables" for ::1 at 2019-01-31 18:37:27 -0500
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY "categories"."name" ASC LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2019-01-31 18:37:42 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (20.8ms)
+Completed 401 Unauthorized in 29ms (ActiveRecord: 1.1ms)
+
+
+
+SyntaxError - syntax error, unexpected ',', expecting ')'
+...mage_tag("/images/burger.png"), class: "burger-img" );@outpu...
+...                              ^:
+  app/views/layouts/application.html.erb:24:in `'
+
+Started POST "/__better_errors/fe5d65b17f69450c/variables" for ::1 at 2019-01-31 18:37:42 -0500
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" ORDER BY "categories"."name" ASC LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2019-01-31 18:37:58 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (25.6ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.7ms)
+Completed 200 OK in 77ms (Views: 72.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:38:04 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (20.8ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 59ms (Views: 55.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:38:19 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (19.8ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.8ms)
+Completed 200 OK in 56ms (Views: 53.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:38:25 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (20.3ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 53ms (Views: 50.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:38:31 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (19.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 52ms (Views: 49.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:41:15 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (23.5ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.2ms)
+Completed 200 OK in 76ms (Views: 72.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:42:28 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (20.8ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.6ms)
+Completed 200 OK in 1537ms (Views: 1533.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:42:57 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (24.4ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.2ms)
+Completed 200 OK in 72ms (Views: 68.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:42:59 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (20.5ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.5ms)
+Completed 200 OK in 60ms (Views: 56.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:43:35 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (20.4ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 58ms (Views: 54.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:43:47 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (24.5ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.9ms)
+Completed 200 OK in 72ms (Views: 68.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:43:56 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (26.3ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 63ms (Views: 59.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:44:00 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (20.2ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (13.8ms)
+Completed 200 OK in 73ms (Views: 70.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:44:15 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (20.5ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.3ms)
+Completed 200 OK in 1548ms (Views: 1545.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:45:26 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (24.9ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.3ms)
+Completed 200 OK in 65ms (Views: 61.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:45:47 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (22.3ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.3ms)
+Completed 200 OK in 64ms (Views: 61.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:45:56 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (20.8ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.3ms)
+Completed 200 OK in 78ms (Views: 75.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:46:15 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (23.8ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.3ms)
+Completed 200 OK in 67ms (Views: 63.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:46:22 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (21.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (4.2ms)
+Completed 200 OK in 86ms (Views: 83.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:46:33 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (28.9ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.8ms)
+Completed 200 OK in 1618ms (Views: 1613.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:46:46 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (23.8ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.8ms)
+Completed 200 OK in 1408ms (Views: 1404.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:46:55 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (22.6ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.9ms)
+Completed 200 OK in 1472ms (Views: 1469.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:47:01 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (24.0ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.3ms)
+Completed 200 OK in 1394ms (Views: 1391.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:47:14 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (22.5ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (4.1ms)
+Completed 200 OK in 1443ms (Views: 1439.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:47:26 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (24.6ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.5ms)
+Completed 200 OK in 1413ms (Views: 1409.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:47:41 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (23.5ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.8ms)
+Completed 200 OK in 1462ms (Views: 1458.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:47:49 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (24.1ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.5ms)
+Completed 200 OK in 1420ms (Views: 1416.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:47:56 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (21.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.0ms)
+Completed 200 OK in 1452ms (Views: 1449.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:48:26 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (22.4ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.0ms)
+Completed 200 OK in 1398ms (Views: 1394.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:48:35 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (23.6ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.2ms)
+Completed 200 OK in 1454ms (Views: 1450.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:48:42 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (29.0ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.9ms)
+Completed 200 OK in 1390ms (Views: 1387.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:48:47 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (22.3ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.6ms)
+Completed 200 OK in 1443ms (Views: 1440.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:48:58 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (23.1ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.7ms)
+Completed 200 OK in 1383ms (Views: 1379.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:49:43 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (22.4ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 64ms (Views: 61.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:49:51 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (21.6ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.4ms)
+Completed 200 OK in 79ms (Views: 75.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:51:34 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (23.3ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.3ms)
+Completed 200 OK in 65ms (Views: 62.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:51:41 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (22.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (4.0ms)
+Completed 200 OK in 84ms (Views: 80.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:51:58 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (26.5ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.8ms)
+Completed 200 OK in 1632ms (Views: 1628.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:52:05 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (24.0ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.7ms)
+Completed 200 OK in 1363ms (Views: 1359.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:52:18 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (23.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.8ms)
+Completed 200 OK in 1519ms (Views: 1515.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:52:25 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (22.4ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.4ms)
+Completed 200 OK in 1392ms (Views: 1388.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:52:34 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (22.2ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.3ms)
+Completed 200 OK in 1445ms (Views: 1442.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:53:00 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (25.4ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.3ms)
+Completed 200 OK in 1391ms (Views: 1387.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:53:20 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (23.4ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.8ms)
+Completed 200 OK in 1636ms (Views: 1632.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:54:22 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (24.1ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.6ms)
+Completed 200 OK in 1570ms (Views: 1566.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:54:31 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (22.2ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.6ms)
+Completed 200 OK in 1464ms (Views: 1460.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:54:42 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (29.3ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.1ms)
+Completed 200 OK in 1403ms (Views: 1399.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:54:49 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (21.9ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.1ms)
+Completed 200 OK in 1450ms (Views: 1445.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:54:56 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (22.8ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.2ms)
+Completed 200 OK in 69ms (Views: 65.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:55:47 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (23.6ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.5ms)
+Completed 200 OK in 1570ms (Views: 1567.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:56:01 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (23.6ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.8ms)
+Completed 200 OK in 1434ms (Views: 1430.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:56:10 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (23.9ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.2ms)
+Completed 200 OK in 1427ms (Views: 1423.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:56:27 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (22.9ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.0ms)
+Completed 200 OK in 1469ms (Views: 1465.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:56:39 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (22.0ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (3.4ms)
+Completed 200 OK in 1387ms (Views: 1383.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:56:50 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (23.3ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.6ms)
+Completed 200 OK in 1442ms (Views: 1438.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:56:57 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (22.4ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (2.6ms)
+Completed 200 OK in 1393ms (Views: 1390.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2019-01-31 18:57:03 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (22.8ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (4.4ms)
+Completed 200 OK in 95ms (Views: 91.8ms | ActiveRecord: 1.3ms)
+
+
