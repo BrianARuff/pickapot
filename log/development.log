@@ -15223,3 +15223,42 @@ Processing by RecipesController#index as HTML
 Completed 200 OK in 2523ms (Views: 2516.2ms | ActiveRecord: 2.9ms)
 
 
+Started GET "/" for ::1 at 2019-02-01 22:34:47 -0500
+  [1m[35m (20.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (99.9ms)
+  [1m[36mCategory Load (1.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  Rendered layouts/_nav.html.erb (20.5ms)
+Completed 200 OK in 4165ms (Views: 4125.8ms | ActiveRecord: 13.3ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2019-02-01 22:34:55 -0500
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"O1Hw/W8ENFQi5ji2cUQFnhbByTln7ludC9Cjwxr9qBcsmBpyrTx3JCVH9uIKAZBp3v6EoaAbrD1z9WbamxmWdw=="}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (41.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 53ms (ActiveRecord: 41.8ms)
+
+
+Started GET "/" for ::1 at 2019-02-01 22:34:55 -0500
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT $1 OFFSET $2[0m  [["LIMIT", 3], ["OFFSET", 0]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (32.2ms)
+  Rendered layouts/_nav.html.erb (1.5ms)
+Completed 200 OK in 86ms (Views: 82.2ms | ActiveRecord: 1.2ms)
+
+
